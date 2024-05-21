@@ -111,16 +111,11 @@ def collect_parser(files, project_name, language, args):
         "py": ["file", "function", "func_body", "str_uncaught_exceptions", "n_try_except", "n_try_pass", "n_finally",
                  "n_generic_except", "n_raise", "n_captures_broad_raise", "n_captures_try_except_raise", "n_captures_misplaced_bare_raise",
                  "n_try_else", "n_try_return", "str_except_identifiers", "str_raise_identifiers", "str_except_block", "n_nested_try", 
-                 "n_bare_except", "n_bare_raise_finally"],
-        "ts": ["file", "function", "func_body", "n_try_catch", "n_finally", "str_catch_identifiers", "str_catch_block",
-               "n_generic_catch", "n_useless_catch", "n_count_empty_catch", "n_count_catch_reassigning_identifier", "n_wrapped_catch", "str_throw_identifiers",
-               "n_throw", "n_generic_throw", "n_non_generic_throw", "n_not_recommended_throw", "n_captures_try_catch_throw", "n_try_return",
-               "n_nested_try"],
-        "java": ["file", "function", "func_body", "n_try_catch", "n_finally", "str_catch_identifiers", "str_catch_block",
-             "n_generic_catch", "n_useless_catch", "n_wrapped_catch", "n_count_empty_catch", "n_count_catch_reassigning_identifier", "str_throw_identifiers",
-             "n_throw", "n_generic_throw", "n_non_generic_throw", "n_captures_try_catch_throw", "n_try_return", "n_nested_try",
-             "throw_within_finally", "throwing_null_pointer_exception", "generic_exception_handling", "instanceof_in_catch", 
-             "n_instanceof_in_catch", "destructive_wrapping", "cause_in_catch", "n_cout_get_cause_in_catch"]
+                 "n_bare_except", "n_bare_raise_finally"], 
+        "ts": ["file", "function", "func_body","n_try_catch_ts","n_finally_ts","str_catch_identifiers_ts","str_catch_block_ts","n_generic_catch_ts","n_useless_catch_ts","n_count_empty_catch_ts","n_count_catch_reassigning_identifier_ts",
+                "n_wrapped_catch_ts","str_throw_identifiers_ts","n_throw_ts","n_generic_throw_ts","n_non_generic_throw_ts","n_not_recommended_throw_ts",
+                "n_captures_try_catch_throw_ts","n_try_return_ts","n_nested_try_ts" ],
+        "java": ["file", "function", "func_body", 'n_try_catch_java', 'n_finally_java', 'str_catch_identifiers_java', 'str_catch_block_java', 'n_generic_catch_java', 'n_useless_catch_java', 'n_wrapped_catch_java', 'n_count_empty_catch_java', 'n_count_catch_reassigning_identifier_java', 'str_throw_identifiers_java', 'n_throw_java', 'n_generic_throw_java', 'n_non_generic_throw_java', 'n_captures_try_catch_throw_java', 'n_try_return_java', 'n_nested_try_java', 'throw_within_finally_java', 'throwing_null_pointer_exception_java', 'generic_exception_handling_java', 'instanceof_in_catch_java', 'n_instanceof_in_catch_java', 'destructive_wrapping_java', 'cause_in_catch_java', 'n_cout_get_cause_in_catch_java' ]
     }
 
     df = pd.DataFrame(

@@ -1,4 +1,5 @@
 ,name,repo,source
+kivy,python-for-android,https://github.com/kivy/python-for-android,github
 arduino,Arduino,https://github.com/arduino/Arduino,github
 kubeflow,kubeflow,https://github.com/kubeflow/kubeflow,github
 leon-ai,leon,https://github.com/leon-ai/leon,github
