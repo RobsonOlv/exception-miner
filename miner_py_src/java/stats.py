@@ -114,28 +114,28 @@ class FileStats:
         str_catch_block = " ".join(captures_catch_block)
 
         return {
-            "n_try_catch": n_try_catch,
-            "n_finally": n_finally,
-            "str_catch_identifiers": str_catch_identifiers,
-            "str_catch_block": str_catch_block,
-            "n_generic_catch": n_generic_catch,
-            "n_useless_catch": n_useless_catch,
-            "n_wrapped_catch":n_wrapped_catch_,
-            "n_count_empty_catch": n_count_empty_catch,
-            "n_count_catch_reassigning_identifier": n_count_catch_reassigning_identifier,
-            "str_throw_identifiers": str_throw_identifiers,
-            "n_throw": n_throw,
-            "n_generic_throw": n_generic_throw,
-            "n_non_generic_throw": n_non_generic_throw,
-            "n_captures_try_catch_throw": n_captures_try_catch_throw,
-            "n_try_return": n_try_return,
-            "n_nested_try": n_nested_try,
-            "throw_within_finally": throw_within_finally,  # New
-            "throwing_null_pointer_exception": throwing_null_pointer_exception,  # New
-            "generic_exception_handling": generic_exception_handling,  # New
-            "instanceof_in_catch": instanceof_in_catch,  # New
-            "n_instanceof_in_catch": n_instanceof_in_catch,  # New
-            "destructive_wrapping": destructive_wrapping,  # New
-            "cause_in_catch": cause_in_catch,  # New
-            "n_cout_get_cause_in_catch": n_cout_get_cause_in_catch,  # New
+            "n_try_catch_java": n_try_catch,
+            "n_finally_java": n_finally,
+            "str_catch_identifiers_java": str_catch_identifiers,
+            "str_catch_block_java": str_catch_block,
+            "n_generic_catch_java": n_generic_catch,
+            "n_useless_catch_java": n_useless_catch,
+            "n_wrapped_catch_java": n_wrapped_catch_,
+            "n_count_empty_catch_java": n_count_empty_catch,
+            "n_count_catch_reassigning_identifier_java": n_count_catch_reassigning_identifier,
+            "str_throw_identifiers_java": str_throw_identifiers,
+            "n_throw_java": n_throw,
+            "n_generic_throw_java": n_generic_throw,
+            "n_non_generic_throw_java": n_non_generic_throw,
+            "n_captures_try_catch_throw_java": n_captures_try_catch_throw,
+            "n_try_return_java": n_try_return,
+            "n_nested_try_java": n_nested_try,
+            "throw_within_finally_java": throw_within_finally,  # New
+            "throwing_null_pointer_exception_java": throwing_null_pointer_exception,  # New
+            "generic_exception_handling_java": generic_exception_handling,  # New
+            "instanceof_in_catch_java": instanceof_in_catch,  # New
+            "n_instanceof_in_catch_java": n_instanceof_in_catch,  # New
+            "destructive_wrapping_java": destructive_wrapping,  # New
+            "cause_in_catch_java": cause_in_catch,  # New
+            "n_cout_get_cause_in_catch_java": n_cout_get_cause_in_catch,  # New 
         }
