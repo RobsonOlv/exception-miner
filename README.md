@@ -1,6 +1,6 @@
-An Empirical Study on Exception Handling Practices in Python Open-Source Projects
+SBES Track Tool - Exception Miner
 ---
-This repository includes the source code and data for our paper "An Empirical Study on Exception Handling Practices in Python Open-Source Projects".
+This repository includes the source code and data for our paper "Exception Miner: Multi-language Static Analysis Tool to Identify Exception Handling Anti-Patterns".
 
 ## Requirements
 
@@ -44,3 +44,6 @@ To generate the coverage report, follow the instructions below.
 
 1. Run `coverage run -m unittest`
 2. Run `coverage report --omit *test_*,*__init__*`
+
+## Results
+The CSV containing the complete results from all exception handling anti-patterns in Python, Java, and Typescript is available in the `results` folder.

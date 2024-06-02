@@ -1,0 +1,12 @@
+projeto,n_try_pass,n_generic_except,n_captures_broad_raise,n_captures_try_except_raise,n_captures_misplaced_bare_raise,n_try_return,n_nested_try,n_bare_except,n_bare_raise_finally
+Arduino,8.0,1.0,5.0,0.0,0.0,10.0,0.0,0.0,0.0
+airbyte,56.0,241.0,178.0,58.0,0.0,224.0,1.0,2.0,0.0
+apitable,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ar-cutpaste,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+capacitor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+flipper,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+github,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+jupyterlab,8.0,32.0,0.0,2.0,0.0,6.0,0.0,0.0,0.0
+kubeflow,1.0,2.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0
+leon,8.0,17.0,0.0,0.0,0.0,11.0,3.0,0.0,0.0
+python-for-android,10.0,5.0,15.0,0.0,0.0,13.0,1.0,0.0,0.0

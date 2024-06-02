@@ -1,0 +1,12 @@
+,projeto,n_generic_catch_java,n_generic_throw_java,n_nested_try_java,n_wrapped_catch_java,n_count_empty_catch_java
+0,Arduino,126.0,1.0,2.0,291.0,572.0
+1,airbyte,148.0,0.0,0.0,405.0,782.0
+2,apitable,56.0,3.0,2.0,160.0,302.0
+3,ar-cutpaste,0.0,0.0,0.0,0.0,0.0
+4,capacitor,39.0,0.0,0.0,115.0,220.0
+5,flipper,20.0,0.0,3.0,72.0,128.0
+6,github,1.0,0.0,0.0,96.0,192.0
+7,jupyterlab,0.0,0.0,0.0,0.0,0.0
+8,kubeflow,0.0,0.0,0.0,0.0,0.0
+9,leon,0.0,0.0,0.0,0.0,0.0
+10,python-for-android,10.0,0.0,0.0,57.0,90.0

@@ -1,0 +1,12 @@
+projeto,n_generic_catch_ts,n_generic_throw_ts,n_wrapped_catch_ts,n_useless_catch_ts,n_count_empty_catch_ts,n_count_catch_reassigning_identifier_ts,n_not_recommended_throw_ts,n_nested_try_ts
+Arduino,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+airbyte,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+apitable,6.0,47.0,40.0,1.0,107.0,0.0,20.0,0.0
+ar-cutpaste,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0
+capacitor,1.0,7.0,18.0,2.0,66.0,0.0,40.0,1.0
+flipper,7.0,123.0,37.0,1.0,151.0,0.0,29.0,0.0
+github,2.0,75.0,21.0,0.0,104.0,0.0,27.0,1.0
+jupyterlab,2.0,51.0,34.0,4.0,75.0,0.0,36.0,0.0
+kubeflow,0.0,2.0,1.0,0.0,6.0,0.0,0.0,0.0
+leon,2.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0
+python-for-android,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
