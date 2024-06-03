@@ -47,3 +47,6 @@ To generate the coverage report, follow the instructions below.
 
 ## Results
 The CSV containing the complete results from all exception handling anti-patterns in Python, Java, and Typescript is available in the `results` folder.
+
+## Recording link containing the tool demonstration
+https://drive.google.com/file/d/1q3VAcssSlwitu9ZKBP7dRwK-n0vvf0fh/view
